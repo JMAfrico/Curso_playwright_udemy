@@ -1,0 +1,8 @@
+Pré requisito para usar o playwright
+1-Ter o node instalado
+2- Criar uma pasta e abrir com VS code
+3- executar no terminal via vscode : npm init playwright@latest
+4- Executar os testes headless : npx playwright test ,é só navegar até a pasta onde ta os test e rodar o comando (Se der erro Error: browserType.launch: , executar npx playwright install para instalar os navegadores para o teste)
+5- Executar os testes através das interfaces: npx playwright test -ui
+6- Executar os testes abrindo o navegador: npx playwright test --headed
+7- Executar apenas um arquivo de teste,basta setar o nome : npx playwright test {nome} --headed
