@@ -6,3 +6,5 @@ Pré requisito para usar o playwright
 5- Executar os testes através das interfaces: npx playwright test -ui
 6- Executar os testes abrindo o navegador: npx playwright test --headed
 7- Executar apenas um arquivo de teste,basta setar o nome : npx playwright test {nome} --headed
+8- Executar o teste pelo nome do teste : npx playwright test -g "add a todo item"
+9- Executar modo codegen : npx playwright codegen demo.playwright.dev/todomvc  

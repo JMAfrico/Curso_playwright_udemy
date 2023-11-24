@@ -1,6 +1,6 @@
 const { test, expect, chromium } = require('@playwright/test');
 
-test('Fazer login', async ({ page }) => {
+test('Fazer logins', async ({ page }) => {
   await page.goto('https://react-redux.realworld.io/#/login?_k=2twsvy');
 
     //Retorna o texto do elemento usando função
